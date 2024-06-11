@@ -1,0 +1,7 @@
+**/__init__.py
+**/DiscreteMNIST
+**/SavedModels
+**/__pycache__
+**/.DS_Store
+.vscode
+vitvenv

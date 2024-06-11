@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/paulffm/Image-Generation-with-Vision-Transformers-and-Diffusion-Models-in-Discrete-State-Spaces/blob/main/LICENSE)
 
-This repository contains **PyTorch** implementations of the vision transformers from the paper [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf) (DiT) by Peebles et al. and the paper [All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/pdf/2209.12152) (UViT) by Bao et al., specifically designed for generating discrete data.
+This repository contains **PyTorch** implementations of the vision transformers from the paper [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf) (DiT) by Peebles et al. and the paper [All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/pdf/2209.12152) (UViT) by Bao et al., specifically designed for generating discrete data. More implementations of vision transformers for generating discrete data will be added soon.
 
-**To my knowledge, there is currently no existing implementation or utilization of vision transformers in conjunction with diffusion models to generate discrete data within discrete state spaces.**
+**To my knowledge, there is currently no existing implementation or utilization of vision transformers in conjunction with diffusion models to generate discrete data within discrete state spaces. *(As of June 2024)***
 
 ## Installation
 

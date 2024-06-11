@@ -1,8 +1,8 @@
 # Image Generation with Vision Transformers and Diffusion Models in Discrete State Spaces
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ChristophReich1996/Swin-Transformer-V2/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/paulffm/Image-Generation-with-Vision-Transformers-and-Diffusion-Models-in-Discrete-State-Spaces/blob/main/LICENSE)
 
-This repository contains **PyTorch** implementations of the vision transformers from the paper [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf) (DiT )by Peebles et al. and the paper [All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/pdf/2209.12152) (UViT) by Bao et al., specifically designed for generating discrete data.
+This repository contains **PyTorch** implementations of the vision transformers from the paper [Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/papers/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.pdf) (DiT ) by Peebles et al. and the paper [All are Worth Words: A ViT Backbone for Diffusion Models](https://arxiv.org/pdf/2209.12152) (UViT) by Bao et al., specifically designed for generating discrete data.
 
 **To my knowledge, there is currently no existing implementation or utilization of vision transformers in conjunction with diffusion models to generate discrete data within discrete state spaces.**
 
@@ -61,7 +61,7 @@ The constructor methods of the `DiT` or `UViT` class take the following paramete
 | num_classes | Number of classes | int |
 | use_checkpoint | If true checkpointing is utilized | bool |
 
-This repository contains a [training script](mnist_generation_example/train_mnist.py) specifically designed for image generation, particularly for generating [MNIST](http://yann.lecun.com/exdb/mnist/) data. In this example, the continuous-time discrete diffusion model, as described in the paper [A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/pdf/2205.14987), is utilized. Additionally, there's a configuration file (`mnist_generation_example/config/mnist_config`) available to streamline the training and sampling process:
+This repository contains a [training script](mnist_generation_example/train_mnist.py) specifically designed for image generation, particularly for generating [MNIST](http://yann.lecun.com/exdb/mnist/) data. In this example, the continuous-time discrete diffusion model, as described in the paper [A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/pdf/2205.14987), is utilized. Additionally, there's a configuration file (`mnist_generation_example/config/mnist_config`) available to streamline the training and sampling process. The config file has the following parameters:
 
 | Parameter | Description | Type |
 | ------------- | ------------- | ------------- |

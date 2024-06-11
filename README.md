@@ -61,7 +61,7 @@ The constructor methods of the `DiT` or `UViT` class take the following paramete
 | num_classes | Number of classes | int |
 | use_checkpoint | If true checkpointing is utilized | bool |
 
-Additionally, this repository contains an[example training script](mnist_generation_example/train_mnist.py) specifically designed for image generation, particularly for generating [MNIST](http://yann.lecun.com/exdb/mnist/) data. In this example, the continuous-time discrete diffusion model, as described in the paper [A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/pdf/2205.14987), is utilized. Furthermore, there's a configuration file `mnist_generation_example/config/mnist_config` available to streamline the training and sampling process. The config file has the following parameters:
+Additionally, this repository contains an [example training script](mnist_generation_example/train_mnist.py) specifically designed for image generation, particularly for generating [MNIST](http://yann.lecun.com/exdb/mnist/) data. In this example, the continuous-time discrete diffusion model, as described in the paper [A Continuous Time Framework for Discrete Denoising Models](https://arxiv.org/pdf/2205.14987), is utilized. Furthermore, there's a configuration file `mnist_generation_example/config/mnist_config` available to streamline the training and sampling process. The config file has the following parameters:
 
 | Parameter | Description | Type |
 | ------------- | ------------- | ------------- |

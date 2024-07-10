@@ -7,7 +7,7 @@ This repository contains **PyTorch** implementations of the vision transformers 
 **To my knowledge, there is currently no existing implementation or utilization of vision transformers in conjunction with diffusion models to generate discrete data within discrete state spaces. *(As of June 2024)***
 
 <p align="center">
-  <img src="vit.png"  alt="1" width = 952x height = 504px >
+  <img src="vit_big.png"  alt="1" width = 952x height = 504px >
 </p>
 
 ## Installation
